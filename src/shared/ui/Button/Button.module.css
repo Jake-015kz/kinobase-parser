@@ -1,0 +1,36 @@
+.button {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: color-mix(in srgb, var(--primary-color) 80%, #ffffff 20%);
+}
+
+.button:active {
+  background-color: color-mix(in srgb, var(--primary-color) 60%, #ffffff 40%);
+}
+
+.button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Mobile-first adjustments */
+@media (max-width: 767px) {
+  .button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
