@@ -1,2 +1,3 @@
-# kinobase-parser
-Создай парсер для сайта kinobase.org
+# Создай парсер для сайта kinobase.org
+
+Создано автоматически Hermes Studio.
